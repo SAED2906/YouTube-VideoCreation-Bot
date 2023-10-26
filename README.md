@@ -24,33 +24,33 @@ The **Reddit-to-YouTube Automata** is an educational project designed to curate 
 ## Installation
 
 1. Clone the repository:
-\```
+```
 git clone https://github.com/your_username/Reddit-to-YouTube-Automata.git
-\```
+```
 
 2. Navigate into the directory:
-\```
+```
 cd Reddit-to-YouTube-Automata
-\```
+```
 
 3. Install the required packages:
-\```
+```
 pip install -r requirements.txt
-\```
+```
 
 ## Usage
 
 1. Setup your configuration by editing `config.json` (see Configuration section below).
 2. Run the automata script:
-\```
+```
 python main.py
-\```
+```
 
 ## Configuration
 
 The `config.json` file contains important settings. Here's a basic setup:
 
-\```json
+```json
 {
     "reddit": {
         "client_id": "YOUR_REDDIT_CLIENT_ID",
@@ -67,7 +67,7 @@ The `config.json` file contains important settings. Here's a basic setup:
         "resolution": "1080p"
     }
 }
-\```
+```
 
 Replace the placeholders (`YOUR_REDDIT_CLIENT_ID`, etc.) with your actual credentials.
 
