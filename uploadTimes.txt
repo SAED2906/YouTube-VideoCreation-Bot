@@ -1,0 +1,3 @@
+#Optimal upload times
+11am, 3pm, 7pm
+PT
