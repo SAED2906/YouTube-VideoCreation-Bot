@@ -25,12 +25,12 @@ The **Reddit-to-YouTube Automata** is an educational project designed to curate 
 
 1. Clone the repository:
 ```
-git clone https://github.com/your_username/Reddit-to-YouTube-Automata.git
+git clone https://github.com/SAED2906/YouTube-VideoCreation-Bot.git
 ```
 
 2. Navigate into the directory:
 ```
-cd Reddit-to-YouTube-Automata
+cd YouTube-VideoCreation-Bot
 ```
 
 3. Install the required packages:
