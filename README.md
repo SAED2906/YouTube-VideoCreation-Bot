@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Setup your configuration by editing `config.json` (see Configuration section below).
+1. Setup your configuration by editing `reddit.py` (see Configuration section below).
 2. Run the automata script:
 ```
 python main.py
@@ -48,28 +48,16 @@ python main.py
 
 ## Configuration
 
-The `config.json` file contains important settings. Here's a basic setup:
+The `reddit.py` file contains important settings. Here's a basic setup:
 
-```json
-{
-    "reddit": {
-        "client_id": "YOUR_REDDIT_CLIENT_ID",
-        "client_secret": "YOUR_REDDIT_CLIENT_SECRET",
-        "subreddits": ["popular", "news"],
-        "max_posts": 10
-    },
-    "youtube": {
-        "api_key": "YOUR_YOUTUBE_API_KEY",
-        "channel_id": "YOUR_CHANNEL_ID"
-    },
-    "video_settings": {
-        "duration": 60,
-        "resolution": "1080p"
-    }
-}
+```
+CLIENT_ID = Your_Client_ID
+CLIENT_SECRET = Your_Client_Secret
+USER_AGENT = Your_User_Agent
+SUBREDDIT = The_Subreddit_you_want
 ```
 
-Replace the placeholders (`YOUR_REDDIT_CLIENT_ID`, etc.) with your actual credentials.
+Replace the placeholders (`Your_Client_ID`, etc.) with your actual credentials.
 
 ## Contribution
 
